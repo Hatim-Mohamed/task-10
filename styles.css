@@ -550,6 +550,16 @@ tbody tr{
   }
   .logo a {
     display: block;
+    font-size: 1rem;
+    padding: 4px;
+
+  }
+  .logo img {
+    width: 100px;
+    height: 30px;
+  }
+  nav ul a{
+    font-size: 1rem;
   }
 
   /* hero */
@@ -562,10 +572,19 @@ tbody tr{
   }
 
   .hero-content h1 {
-    /* font-size: 2rem; */
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  .hero-content p{
+    font-size: 0,8rem;
   }
 
-  .hero-buttons {
+  .hero-buttons button{
+    padding: 5;
+    font-size: 1rem;
+    gap: 2rem;
+
     /* flex-direction: column; */
   }
 
@@ -591,19 +610,139 @@ tbody tr{
     position: relative;
     top: -40px;
   }
+  .afa h2{
+    font-size: 1rem;
+  }
+  .afa a{
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .afa .solutions-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+
+.know-us {
+    padding: 3rem 0;
+    background: #f8f9fa;
+    width: 100%;
+}
+
+.know-us h5 {
+  font-size: 0.8;
+}
+.know-us h2{
+  font-size: 1.5rem;
+}
+
+.info-grid5{
+  width: 100%;
+}
+
   .info-grid5{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    gap: 10px;
+  }
+  .contact-info5 h3{
+    font-size: 0.8rem;
+  }
+  .contact-info5 p{
+    font-size: 0.6rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  .contact-info5 a{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+
   }
   .contact-info5{
-    width: auto;
+    width: 100%;
     height: auto;
   }
   .plan-content{
     flex-direction: column;
     height: auto;
   }
+
+  .table-btn button{
+    font-size: 0.7rem;
+  }
+  .info-table5 td{
+    font-size: 0.6rem;
+    width: 25%;
+    text-align: center;
+  }
+  .info-table5 {
+    width: 100%;
+
+  }
+  .info-table5 th{
+    font-size: 0.7rem;
+    gap: 20px;
+    width: 25%;
+    /* font-size: 1rem; */
+  }
+
+ .plan-image img{
+  position: relative;
+  top: -20px;
+  /* left: px; */
+  width: 50%;
+ }
+ .plan-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    z-index: 100;
+    position: absolute;
+    /* top: 1px; */
+    width: 100%;
+    height: 400px;
+
+    margin-left: -20px;
+}
+
+.plan-content{
+ height: 300px; 
+}
+.plan-form h4{
+  font-size: 0.8rem;
+}
+.plan-form h3{
+  font: 1em sans-serif;
+  margin-bottom: 10px;
+}
+.plan-form button {
+   font-size: 0.8rem; padding: 5px;
+}
+
+.testimonials h4{
+  font-size: 0.7rem;
+}
+.testimonials h2{
+  font-size: 1.2rem;
+}
+.testimonials h3{
+  font-size: 0.8rem;
+}
+.testimonials h5{
+  font-size: 0.6rem;
+}
+
+.testimonial-image img {
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
   .container{
     height: auto;
   }
